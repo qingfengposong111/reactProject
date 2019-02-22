@@ -13,7 +13,7 @@ import grayPhone from './../../images/grayPhone.png'
 import phone from './../../images/phone.png'
 import address from './../../images/icon_address.png'
 import './../schoolDetail/schoolDetail.css'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 
 class LessonDetail extends Component {
     constructor(props) {

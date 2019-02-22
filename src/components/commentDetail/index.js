@@ -5,7 +5,7 @@ import axios from 'axios'
 import './commentDetail.css'
 import heart from './../../images/heart.png'
 import com from './../../images/com.png'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 
 class CommentDetail extends Component {
     constructor(props) {

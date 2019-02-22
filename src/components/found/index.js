@@ -7,7 +7,7 @@ import CircleComment from '../publicComponents/circleComment/index'
 import circleBtn from './../../images/circleBtn.png'
 import './found.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class Found extends Component{
     constructor(props){
         super(props);

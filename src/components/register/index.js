@@ -4,7 +4,7 @@ import creatHistory from 'history/createHashHistory'
 import img1 from './../../images/btn_return.png'
 import './register.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class Register extends Component{
     constructor(props){
         super(props);

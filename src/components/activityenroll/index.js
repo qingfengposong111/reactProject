@@ -4,7 +4,7 @@ import SmList from '../publicComponents/schMethList/index'
 import { Link } from "react-router-dom";
 import './activityenroll.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class ActivityEnroll extends Component{
     constructor(props){
         super(props);

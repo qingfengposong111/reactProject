@@ -7,7 +7,7 @@ import heart from './../../images/heart.png'
 import grayHeart from'./../../images/grayHeart.png'
 import send from './../../images/icon_forwarding.png'
 import iconSend from './../../images/icon_send.png'
-const host = 'http://api.kingsf.cn/'/*'https://api.labiyouxue.cn/'*/;
+const host = 'http://api.labiyouxue.cn/';
 class TipListDetail extends Component {
     constructor(props) {
         super(props);

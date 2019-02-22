@@ -4,7 +4,7 @@ import Header from '../publicComponents/header/index'
 import SmList from '../publicComponents/schMethList/index'
 import './myAttention.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class MyAttention extends Component {
     constructor(props) {
         super(props);

@@ -4,7 +4,7 @@ import aliPay from './../../images/AliPay.png'
 import wxPay from './../../images/WxPay.png'
 import './activityPay.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class ActivityPay extends Component {
     constructor(props) {
         super(props);

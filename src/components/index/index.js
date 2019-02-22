@@ -12,11 +12,10 @@ import Swiper from '../publicComponents/swiper/index.js'
 import Lessons from '../publicComponents/lessons/index.js'
 import Hot from '../publicComponents/hot/index.js'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';//kingsf
 
 class Main extends Component {
     constructor(props) {
-        console.log('constructor');
         super(props);
         this.state = {
             list: [],

@@ -6,7 +6,7 @@ import deleteImg from './../../images/btn_trash.png'
 import iconSearch from './../../images/icon_search.png'
 import './activitySearch.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class SearchActivity extends Component{
     constructor(props){
         super(props);

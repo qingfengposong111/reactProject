@@ -17,7 +17,7 @@ import time from './../../images/time.png'
 import noStar from './../../images/btn_hollow_Focus.png'
 import doneStar from './../../images/btn_solid_Focus.png'
 import './../schoolDetail/schoolDetail.css'
-const host ='http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class ActivityDetail extends Component {
     constructor(props) {
         super(props);

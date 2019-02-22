@@ -4,8 +4,7 @@ import Header from '../publicComponents/header/index'
 import {Link} from "react-router-dom";
 import phone from './../../images/phone.png'
 import './lessonDetail.css'
-const host = 'http://api.kingsf.cn/';
-
+const host = 'http://api.labiyouxue.cn/';
 class LessonDetail extends Component {
     constructor(props) {
         super(props);

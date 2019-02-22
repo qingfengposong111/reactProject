@@ -2,11 +2,12 @@ import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import creatHistory from 'history/createHashHistory'
 import img1 from './../../images/btn_return.png'
+import img2 from '../../images/img_image01.png'
 import grayEye from './../../images/icon_grey_eyes.png'
 import tipBtn from './../../images/circleBtn.png'
 import './tipoff.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/'/*'https://api.labiyouxue.cn/'*/;
+const host = 'http://api.labiyouxue.cn/';
 class TipOff extends Component {
     constructor(props) {
         super(props);
@@ -14,7 +15,7 @@ class TipOff extends Component {
             list:[],
             getBalance:'',
             getCash:'',
-            ownerImg:localStorage.qrcodeImg
+            ownerImg:localStorage.qrcodeImg||img2
         };
         this.getInfo();
         this.getList();

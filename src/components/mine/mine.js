@@ -3,6 +3,7 @@ import Footer from '../publicComponents/footer/index'
 import Line from '../publicComponents/line/index'
 import home from './../../images/home.png'
 import love from './../../images/love.png'
+import img1 from '../../images/img_image01.png'
 import attention from './../../images/icon_collection.png'
 import active from './../../images/icon_signup.png'
 import belong from './../../images/tad_school_pre.png'
@@ -41,8 +42,8 @@ class School extends Component {
                     contain:'设置'
                 }
             ],
-            personal:localStorage.qrcodeImg,
-            himSelf:localStorage.nickname
+            personal:localStorage.qrcodeImg||img1,
+            himSelf:localStorage.nickname||'点击登陆/注册'
         };
 
     };

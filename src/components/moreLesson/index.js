@@ -10,7 +10,7 @@ import LessonBrain from './../publicComponents/lessonBrain/index'
 import LessonArea from './../publicComponents/lessonArea/index'
 import Age from './../publicComponents/age/index'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class MoreLesson extends Component {
     constructor(props) {
         super(props);

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import creatHistory from 'history/createHashHistory'
 import './belongSchool.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class BelongSchool extends Component{
     constructor(props){
         super(props);

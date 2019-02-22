@@ -3,7 +3,7 @@ import Hot from '../publicComponents/hot/index'
 import Header from '../publicComponents/header/index'
 import './hotMore.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class HotMore extends Component {
     constructor(props) {
         super(props);

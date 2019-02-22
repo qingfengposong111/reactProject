@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import address from './../../images/icon_address.png'
 import './meth.css'
 import axios from 'axios'
-const host =/*'https://api.labiyouxue.cn/'*/ 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class Meth extends Component{
     constructor(props){
         super(props);

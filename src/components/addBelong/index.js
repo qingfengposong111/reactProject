@@ -4,7 +4,7 @@ import img1 from './../../images/btn_return.png'
 import {Upload, Icon, message} from '../../../node_modules/antd';
 import './addBelong.css'
 import axios from 'axios'
-const host = /*'https://api.labiyouxue.cn/'*/ 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class AddBelong extends Component {
     constructor(props) {
         super(props);

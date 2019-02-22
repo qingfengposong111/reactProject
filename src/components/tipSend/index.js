@@ -7,7 +7,7 @@ import cancel from './../../images/btn_cancel.png'
 import iconVideo from './../../images/icon_video.png'
 import './tipSend.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 
 class TipSendGoComment extends Component {
     constructor(props) {
@@ -182,7 +182,7 @@ class TipSendGoComment extends Component {
                 <div className="videos">
                     <div className={this.state.show ? "videos-box tipSend-show" : 'tipSend-hid'}>
                         <video onClick={this.goPlay1.bind(this)} webkit-playsinline='' playsinline='' x5-playsinline=''  x-webkit-airplay='allow' id="video" poster={this.state.posters}
-                               src={'http://qiniu.wantfg.com/' + this.state.videoSrc}/>
+                               src={'http://img.labiyouxue.com/' + this.state.videoSrc}/>
                         <img onClick={this.goPlay.bind(this)} className={this.state.flag?"iconPlay tipSend-show":'tipSend-hid'} src={iconVideo} alt=""/>
                     </div>
                     <div className="uploadBtn">
@@ -211,7 +211,7 @@ class TipSendGoComment extends Component {
                         this.state.imagesArr !== null ? this.state.imagesArr.map((temp, m) => {
                             return (
                                 <div key={m}>
-                                    <img src={'http://qiniu.wantfg.com/' + temp} alt="" className="img"/>
+                                    <img src={'http://img.labiyouxue.com/' + temp} alt="" className="img"/>
                                     <img onClick={this.cancel.bind(this, m)} src={cancel} alt="" className="cancel"/>
                                 </div>
                             )

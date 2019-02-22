@@ -11,7 +11,7 @@ import img1 from './../../images/btn_return.png'
 import iconSearch from './../../images/icon_search.png'
 import './selectSchool.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/'/*'https://api.labiyouxue.cn/'*/;
+const host = 'http://api.labiyouxue.cn/';
 class SelectSchool extends Component {
     constructor(props) {
         super(props);

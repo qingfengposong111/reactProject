@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import img6 from '../../../images/batch.png'
 import address from '../../../images/icon_address.png'
 import './lessons.css'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class Lessons extends Component {
     constructor(props) {
         super(props);

@@ -6,7 +6,7 @@ import iconSearch from './../../images/icon_search.png'
 import PinYin from './../../pinyin'
 import './citySearch.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class CitySearch extends Component {
     constructor(props) {
         super(props);

@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Header from '../publicComponents/header/index'
 import './myOrder.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class MyOrder extends Component {
     constructor(props) {
         super(props);

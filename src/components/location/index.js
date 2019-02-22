@@ -7,7 +7,7 @@ import img1 from './../../images/btn_return.png'
 import iconSearch from './../../images/icon_search.png'
 import locationImg from './../../images/icon_positioning.png'
 import './location.css'
-const host = 'http://api.kingsf.cn/'/*'https://api.labiyouxue.cn/'*/;
+const host = 'https://api.labiyouxue.cn/';
 class Location extends Component {
     constructor(props) {
         super(props);

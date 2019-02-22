@@ -6,7 +6,7 @@ import SmList from '../publicComponents/schMethList/index'
 import imgs from './../../images/img_image01.png'
 import './excellent.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class Excellent extends Component{
     constructor(props){
         super(props);

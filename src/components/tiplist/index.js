@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Header from './../publicComponents/header/index'
 import './tiplist.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/'/*'https://api.labiyouxue.cn/'*/;
+const host = 'http://api.labiyouxue.cn/';
 class TipList extends Component {
     constructor(props) {
         super(props);

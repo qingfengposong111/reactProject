@@ -5,7 +5,7 @@ import img1 from './../../images/btn_return.png'
 import cancel from './../../images/btn_cancel.png'
 import './foundGoComment.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class FoundGoComment extends Component {
     constructor(props) {
         super(props);
@@ -110,7 +110,7 @@ class FoundGoComment extends Component {
                             this.state.imagesArr !== null ? this.state.imagesArr.map((temp, m) => {
                                 return (
                                     <div key={m}>
-                                        <img src={'http://qiniu.wantfg.com/' +temp} alt="" className="img"/>
+                                        <img src={'http://img.labiyouxue.com/' +temp} alt="" className="img"/>
                                         <img onClick={this.cancel.bind(this, m)} src={cancel} alt="" className="cancel"/>
                                     </div>
                                 )

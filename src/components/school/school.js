@@ -10,7 +10,7 @@ import iconSearch from './../../images/icon_search.png'
 import img2 from './../../images/school_btn_screening.png'
 import './school.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class School extends Component {
     constructor(props) {
         super(props);

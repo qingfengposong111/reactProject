@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import axios from 'axios'
 import Header from './../publicComponents/header/index'
 import './wallet.css'
-const host = 'http://api.kingsf.cn/'/*'https://api.labiyouxue.cn/'*/;
+const host = 'http://api.labiyouxue.cn/';
 
 class Wallet extends Component {
     constructor(props) {

@@ -4,7 +4,7 @@ import aliPay from './../../images/AliPay.png'
 import wxPay from './../../images/WxPay.png'
 import './pay.css'
 import axios from 'axios'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class Pay extends Component{
     constructor(props){
         super(props);
@@ -23,7 +23,6 @@ class Pay extends Component{
         })
             .then(res =>{
                 if (res.data.code === '1') {
-                    console.log(res)
                     this.setState({
                         detail: res.data.data,
                         agency: res.data.data.agency,

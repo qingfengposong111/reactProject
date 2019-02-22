@@ -1,0 +1,27 @@
+.addBelong-contain-single,.add-c-s-rt{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #eee;
+    color:#ccc;
+    padding:5px 10px;
+}
+.add-c-s-rt{
+    width:70%;
+    justify-content: flex-end;
+
+    border:none;
+}
+.add-c-s-rt-lf{
+    margin-right:5px;
+    color:#666!important;
+}
+.addPic{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.add-c-s-rt input{
+    outline:none;
+}

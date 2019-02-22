@@ -1,0 +1,34 @@
+.belongSchool-head{
+    width:100%;
+    height:44px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background: linear-gradient(#13C3B5,#A1FED6);
+    padding:0 10px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    margin-bottom:5px;
+    color:#fff;
+}
+.belongSchool-img{
+    width:20px;
+    height:20px;
+}
+.belongSchool-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.belongSchool-center{
+    width:80vw;
+    text-align: center;
+}
+.belongSchool-list{
+    padding-top:50px;
+}
+.belongSchool-list a{
+    text-decoration:none;
+}

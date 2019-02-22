@@ -1,0 +1,156 @@
+.activityOnLine{
+    width:100%;
+    height:100%;
+    background: #eee;
+}
+.active-til{
+    padding:10px 15px;
+    background: #fff;
+    margin-top:10px;
+
+}
+.active-list{
+    padding:10px 15px;
+    background: #fff;
+}
+.active-list-item{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    color:#666;
+    padding:15px 0;
+    border-top:1px solid #eee;
+}
+.active-list-item-rt{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.active-list-item-lf{
+    width:40%;
+}
+.active-list-item-rt-money{
+    margin-right:10px;
+    color:#FF5353;
+}
+.active-name{
+    color:#666;
+    width:100%;
+    background: #fff;
+    padding:60px 15px 20px;
+}
+.ms{
+    position:absolute;
+    width: 12px;
+    height: 12px;
+    left:-1px;
+    opacity:0;
+    cursor:pointer;
+    z-index: 10000;
+}
+span.c {
+    position: relative;
+    cursor:pointer;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-right:10px;
+    border:1px solid #ccc;
+    /*margin: 20px 100px;*/
+}
+span.c::after{
+    content: '';
+    opacity: 0;
+    position: absolute;
+    width: 7px;
+    height: 4px;
+    background: transparent;
+    top: 1px;
+    left: 1px;
+    border: 3px solid #666;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.label2::after {
+    opacity: 1!important;
+}
+.active-concat{
+    width:100%;
+    background: #fff;
+    margin-top:10px;
+    padding:10px 15px;
+}
+.active-concat-int div{
+    height:44px;
+    border:1px solid #eee;
+    overflow:hidden;
+    border-radius:6px;
+
+}
+.active-concat-int{
+    width:100%;
+    display:flex;
+    margin-top:10px;
+    justify-content: space-between;
+    align-items:center;
+}
+.active-concat-int>div:first-child{
+    width:30%;
+}
+.active-concat-int>div:last-child{
+    width:65%;
+}
+.active-concat-int>div input{
+    width:100%;
+    height:100%;
+    border:none;
+    box-sizing:border-box;
+    padding-left:5px;
+    outline:none;
+}
+.active-footer{
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:1000;
+}
+.active-footer-til{
+    width:100%;
+    text-align: center;
+    padding:5px 0;
+    font-size:12px;
+    background: #a1fed6;
+    color:#666;
+
+}
+.active-footer-main{
+    width:100%;
+    background: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:44px;
+}
+.active-footer-lf{
+    width:70%;
+    padding:0 15px;
+    display:flex;
+    justify-content: space-between;
+    color:#666666;
+}
+.active-footer-rt{
+    width:30%;
+    text-align: center;
+    background: #5EE2C6;
+    color:#fff;
+    font-size:18px;
+    line-height:44px;
+}

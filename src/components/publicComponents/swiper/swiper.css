@@ -1,0 +1,23 @@
+.swiper-container{
+    height:175px!important;
+    overflow:hidden!important;
+    margin-top:10px;
+}
+.slide-content{
+    width:92%!important;
+    height:175px;
+    overflow:hidden!important;
+    margin:0 auto;
+    border-radius:8px;
+    border:1px solid #5EE2C6;
+    box-shadow:0 0 0 1px #5EE2C6;
+}
+.swiper-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.swiper-pagination-bullet-active{
+    background: red!important;
+    opacity:.5!important;
+}

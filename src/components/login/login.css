@@ -1,0 +1,108 @@
+.login-head{
+    width:100%;
+    height:44px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    background: linear-gradient(#13C3B5,#A1FED6);
+    padding:0 10px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    margin-bottom:5px;
+    color:#fff;
+}
+.login-img{
+    width:20px;
+    height:20px;
+}
+.login-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.login-center{
+    width:80vw;
+    text-align: center;
+}
+.login-main{
+    width:92%;
+    margin:0 auto 0;
+    padding-top:60px;
+}
+.login-main .phone,.login-main .pwd{
+    width:100%;
+    border-bottom:1px solid #eee;
+    padding:5px 0;
+}
+.login-main .phone input,.login-main .pwd input{
+    width:100%;
+    outline:none;
+    padding:5px 10px;
+    box-sizing:border-box;
+    font-size:16px;
+    color:#333;
+    border:none;
+}
+.login-main .code{
+    width:100%;
+    border-bottom:1px solid #eee;
+    padding:10px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.login-main .code input{
+    width:60%;
+    outline:none;
+    padding:5px 10px;
+    box-sizing:border-box;
+    font-size:16px;
+    color:#333;
+    border:none;
+}
+.login-main .code span{
+    display:block;
+    background: linear-gradient(rgb(161, 254, 214), rgb(19, 195, 181));
+    color:#fff;
+    width:100px;
+    text-align: center;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    border-radius:5px;
+    box-shadow:0 0 1px #eee;
+    cursor:pointer;
+}
+
+.login-main .submit{
+    width:100%;
+    height:44px;
+    text-align: center;
+    color:#fff;
+    line-height:44px;
+    font-size:18px;
+    background: rgb(204,204,204);
+    border:1px solid #eee;
+    border-radius:4px;
+    margin-top:34px;
+}
+.login-main .login-tip{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    color:#666;
+    font-size:12px;
+    margin-top:10px;
+}
+.login-hid{
+    display:none;
+}
+.login-show{
+    display:block;
+}
+.submit-color{
+    background: linear-gradient(rgb(161, 254, 214), rgb(19, 195, 181))!important;
+}

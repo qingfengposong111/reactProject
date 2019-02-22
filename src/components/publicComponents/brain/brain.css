@@ -1,0 +1,37 @@
+.brain{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:88px;
+    left:0;
+    background: rgba(0,0,0,.3);
+
+}
+.brain .brain-two{
+    width:100%;
+    height:300px;
+    display:flex;
+    justify-content: flex-start;
+    background: #fff;
+    overflow-y:auto;
+}
+.brain-rt{
+    width:100%;
+}
+.brain-two>div>div{
+    width:100%;
+    color: #666;
+    font-size: 16px;
+    line-height:44px;
+    border-bottom: 1px solid #eee;
+    padding-left:15px;
+}
+.bigSelect{
+    color:#5EE2C6!important;
+    background:#eee;
+}
+.bottom-box{
+    width:100%;
+    min-height:45%;
+    background: transparent;
+}

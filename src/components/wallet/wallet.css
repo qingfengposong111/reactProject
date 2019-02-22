@@ -1,0 +1,48 @@
+.wallet-ban{
+    color: #fff;
+    width: 92%;
+    height: 140px;
+    background: -webkit-linear-gradient(to right,#A1FED6, #13C3B5);
+    background: linear-gradient(to right,#A1FED6, #13C3B5);
+    margin: 56px auto 10px;
+    border-radius: 6px;
+}
+.wallet-til{
+    width: 100%;
+    padding: 15px;
+}
+.wallet-money{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px 15px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.wallet-list{
+    width:100%;
+    margin:0 auto 0;
+}
+.wallet-list-temp{
+    width:100%;
+    padding:20px 4%;
+    border-bottom:4px solid #eee;
+}
+.wallet-list-temp>div{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:5px 0;
+}
+.wallet-blue{
+    color:#53BEFB;
+}
+.wallet-unblue{
+    color:#FB5353;
+}

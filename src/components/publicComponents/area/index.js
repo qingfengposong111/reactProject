@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios'
 import './area.css'
-const host = 'http://api.kingsf.cn/';
+const host = 'http://api.labiyouxue.cn/';
 class Area extends Component {
     constructor(props) {
         super(props);

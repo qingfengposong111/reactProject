@@ -25,7 +25,7 @@ class CircleComment extends Component {
         if (urls !== undefined && urls !== null) {
             urls.forEach((item, index) => {
                 arr.push({'src': item, 'alt': index})
-            })
+            });
         }
         return (
             <div className="circleTemps">
@@ -47,7 +47,7 @@ class CircleComment extends Component {
                             {
                                 (urls !== undefined && urls !== null) ? urls.map((temp, index1) => {
                                     return <div className="cicle-imgBox" key={index1}>
-                                            <Zmage set={arr} edge={5} controller={controller} zIndex={index1}
+                                            <Zmage set={arr} edge={5} controller={controller} radius={10} preset="mobile" zIndex={index1}
                                                    src={temp} alt=""/>
                                         </div>
                                 }) : ''

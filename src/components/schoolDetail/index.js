@@ -20,7 +20,6 @@ class LessonDetail extends Component {
         super(props);
         this.state = {
             detail: {},
-            agency: {},
             list: [],
             imgList: [],
             commList: [],
@@ -53,7 +52,8 @@ class LessonDetail extends Component {
                         isCollection: res.data.data.collected,
                         detail: res.data.data,
                         lat: res.data.data.latitude,
-                        lng: res.data.data.longitude
+                        lng: res.data.data.longitude,
+
                     });
                     if (!this.state.isCollection) {
                         this.setState({
@@ -144,7 +144,14 @@ class LessonDetail extends Component {
     }
 
     goComment() {
-        this.props.history.push('/SchoolGoComment/' + this.props.match.params.id)
+        if(localStorage.token){
+            this.props.history.push('/SchoolGoComment/' + this.props.match.params.id)
+        }else{
+            alert('请登录!');
+            let daa = window.location.href.substring(window.location.href.lastIndexOf(':') + 5);
+            this.props.history.push('/login/#' + daa);
+        }
+
     }
 
     goMap() {
@@ -177,7 +184,9 @@ class LessonDetail extends Component {
     mores() {
         this.props.history.push('/SchoolAllComment/' + this.props.match.params.id)
     }
+    tel(){
 
+    }
     render() {
         const tel = {
             image: grayPhone,
@@ -253,7 +262,7 @@ class LessonDetail extends Component {
                 </div>
                 <div className="schoolDetail_footer">
                     <div>
-                        <a href={this.state.agency.consultPhone}>
+                        <a href={'tel:'+this.state.detail.consultPhone} onClick={this.tel.bind(this)}>
                             <img src={phone} alt=""/>
                             <span>电话咨询</span>
                         </a>

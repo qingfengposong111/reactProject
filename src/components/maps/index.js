@@ -17,7 +17,7 @@ class Maps extends Component {
                 <Header data="位置"/>
                 <div id="maps-container">
                     <Map center={{lng: this.props.match.params.lng, lat: this.props.match.params.lat}} zoom="12">
-                        <Marker position={{lat: this.props.match.params.lat, lng: this.props.match.params.lng}}/>
+                        <Marker  position={{lat: this.props.match.params.lat, lng: this.props.match.params.lng}}/>
                         <Circle
                             center={{lat: this.props.match.params.lat, lng: this.props.match.params.lng}}
                             fillColor='pink'

@@ -22,26 +22,26 @@ class Activity extends Component{
             actVal:''
         });
     }
-    formatDate(value) {
+    formatDate=(value)=> {
         let date = new Date(value);
         let MM = date.getMonth() + 1;
         MM = MM < 10 ? ('0' + MM) : MM;
         let d = date.getDate();
         d = d < 10 ? ('0' + d) : d;
         return MM + '月' + d + '日'
-    }
+    };
     componentDidMount() {
         this.getList(0);
     }
-    back(){
+    back=()=>{
         const history = creatHistory();
         history.goBack();
-    }
+    };
     getList(sType){
         axios.get(host+'/api/v2/findYxwActivityList',{
             params:{
                 sType: sType,
-                areaId: '441900',
+                areaId: localStorage.itselfId||localStorage.locationId,
                 activeName:this.props.match.params.acv
             }
         }).then(res=>{
@@ -77,7 +77,8 @@ class Activity extends Component{
                         <Search drs={this.props.match.params.acv} placeholder="搜索活动名称/类型"> </Search>
                     </div>
                 </div>
-                <div className="activity-nav">
+                <div className=
+                         "activity-nav">
                     {
                         this.state.tabList.map((temp, a) => {
                             return <div key={a} className={temp.active ? 'select-nav' : ''}

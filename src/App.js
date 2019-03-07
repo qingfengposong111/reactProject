@@ -52,12 +52,14 @@ import ActivityGoComment from './components/activityGoComment'//评价活动
 import Personal from './components/personal'//个人信息
 import AddBelong from './components/addBelong'//添加所属学校/机构
 import BelongSearch from './components/belongSearch'
+import Self from'./components/self'
 const App = () => (
     <div>
         <Router>
             <div>
                 <Route exact path="/" component={Main}/>
                 <Route path="/School" component={School}/>
+                <Route path="/Self" component={Self}/>
                 <Route path="/Find" component={Find}/>
                 <Route path="/Mine" component={Mine}/>
                 <Route path="/Activity/:acv?" component={Activity}/>

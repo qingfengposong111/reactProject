@@ -65,7 +65,7 @@ class Lessons extends Component {
                                         <img src={address} alt=""/>
                                         <span>{item.distance}</span><span>{item.name}</span>
                                     </div>
-                                    <div className="bot">￥{this.yuan(item.promotePrice)}元</div>
+                                    <div className="bots">￥{this.yuan(item.promotePrice)}元</div>
                                 </Link>
                             )
                         }):''

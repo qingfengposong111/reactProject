@@ -23,7 +23,7 @@ class Main extends Component {
             city: '',
             cityId: 0,
             selectCity: ' ',
-            local: localStorage.itself != null ? localStorage.itself.slice(0, 3) : ''
+            local: localStorage.itself !== null ? localStorage.itself.slice(0, 3) : ''
         };
     }
     changes() {
@@ -137,8 +137,10 @@ class Main extends Component {
     loadMore () {
         this.props.history.push('/LoadMore')
     }
+    self(){
+        this.props.history.push('/Self')
+    }
     render() {
-        /*console.log('render');*/
         return (
             <div className="box">
                 <div className="header-search">
@@ -176,6 +178,7 @@ class Main extends Component {
                     </Link>
                 </div>
                 <Lessons />
+                <div onClick={this.self.bind(this)}>自己</div>
                 <div className="excell">
                     <div className="title">
                         <div className="excell-lf" onClick={this.loadMore.bind(this)}>

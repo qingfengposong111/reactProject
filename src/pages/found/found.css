@@ -1,0 +1,32 @@
+.find .out {
+    margin: 0 auto !important;
+}
+.out{
+    padding-top:50px;
+}
+.found-box {
+    padding-top: 5px;
+    background: #fff;
+}
+
+.circleComment > > > .goScore {
+    display: none;
+}
+ .iscroll-luo-box{
+    background: #fff!important;
+}
+.circleComment a {
+    text-decoration: none;
+}
+
+.circleBtn {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 500;
+    bottom: 10%;
+    right: 5%;
+}
+.sl_up{
+    display:none!important;
+}

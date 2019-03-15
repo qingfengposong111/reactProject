@@ -1,0 +1,24 @@
+.belong-search{
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    height:44px;
+    background: linear-gradient(#A1FED6,#13C3B5);
+    color:#fff;
+    padding:0 10px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10000;
+}
+.citySearch-list{
+    width:92%;
+    margin:0 auto 0;
+    padding-top:50px;
+}
+.belong-temp{
+    color:#999;
+    line-height:2;
+    border-bottom:1px solid #eee;
+}

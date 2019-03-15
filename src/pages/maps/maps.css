@@ -1,0 +1,18 @@
+html,body{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.maps{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+#maps-container,.BMap_mask{
+    width:100%;
+    height:100%;
+}
+#maps-container>div{
+    width:100%;
+    height:100%!important;
+}

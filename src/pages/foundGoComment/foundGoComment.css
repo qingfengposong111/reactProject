@@ -1,0 +1,100 @@
+.foundComment-head{
+    width:100%;
+    height:44px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    background: linear-gradient(#13C3B5,#A1FED6);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    margin-bottom:5px;
+    color:#fff;
+}
+.foundComment-img{
+    width:10%;
+    height:20px;
+    text-align: center;
+    position:relative;
+    z-index:100;
+}
+.foundComment-img img{
+    width:20px;
+    height:20px;
+}
+.foundComment-center{
+    width:100%;
+    position:absolute;
+    left:0;
+    text-align: center;
+}
+
+.foundComment-rt{
+    position:absolute;
+    right:10px;
+    top:8px;
+    width:60px;
+    height:28px;
+    line-height:26px;
+    text-align: center;
+}
+
+.foundContent{
+    width:92%;
+    margin:60px auto 10px;
+    border-radius:4px;
+    border:1px solid #ccc;
+    overflow:hidden;
+    height:125px;
+    background: #eee;
+}
+.foundContent textarea{
+    width:100%;
+    color:#666!important;
+    font-size:12px;
+    box-sizing:border-box;
+    padding:5px 10px;
+    background: #eee;
+    resize:none;
+    outline:none;
+    height:100%;
+    border:none;
+}
+.foundFile{
+    width:92%;
+    margin:10px auto;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+}
+.foundFile>div{
+    width:76px;
+    height:76px;
+    margin-right:10px;
+    margin-bottom:12px;
+    position:relative;
+}
+.foundFile>div img.img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.foundFile>div.goFile{
+    border:1px dashed #ccc;
+}
+.cancel{
+    position:absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:20px;
+}
+.goUpload{
+    width:76px;
+    height:76px;
+    text-align: center;
+    line-height:76px;
+    font-size:30px;
+    color:#ccc;
+}

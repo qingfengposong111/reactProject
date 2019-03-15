@@ -1,0 +1,25 @@
+.excellent-out{
+    padding-top:34px;
+}
+.excellent-out .banner{
+    margin-top:0!important;
+}
+.excelent{
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    border-bottom:1px solid #eee;
+    font-size: 18px;
+    color: #666666;
+}
+.shape1{
+    display:inline-block;
+    background: #5ee2c6;
+    width: 5px;
+    height: 44px;
+    margin-right:10px;
+}
+.excellentList a{
+    text-decoration:none;
+}

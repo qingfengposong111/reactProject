@@ -1,0 +1,13 @@
+.star{
+    display: inline-block;
+}
+.star>span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-size: 10px 10px;
+}
+.staricon{
+    color:rgb(255, 204, 102)!important;
+   /* font-size:30px;*/
+}

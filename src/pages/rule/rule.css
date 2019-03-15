@@ -1,0 +1,29 @@
+.rule-main{
+    width:92%;
+    margin:0 auto;
+}
+.text-content {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(102, 102, 102);
+}
+.first-line {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.desc {
+    color: rgb(153, 153, 153);
+}
+.mz{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 30px;
+    text-align: center;
+}
+.user-title{
+    font-size:18px;
+    color:#fff;
+    text-align: center;
+}

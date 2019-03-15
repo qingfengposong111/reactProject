@@ -1,0 +1,165 @@
+.tipSendComment-head{
+    width:100%;
+    height:44px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    background: linear-gradient(#13C3B5,#A1FED6);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    margin-bottom:5px;
+    color:#fff;
+}
+.tipSendComment-img{
+    width:10%;
+    height:20px;
+    text-align: center;
+    position:relative;
+    z-index:100;
+}
+.tipSendComment-img img{
+    width:20px;
+    height:20px;
+}
+.tipSendComment-center{
+    width:100%;
+    position:absolute;
+    left:0;
+    text-align: center;
+}
+
+.tipSendComment-rt{
+    position:absolute;
+    right:10px;
+    top:8px;
+    width:60px;
+    height:28px;
+    line-height:26px;
+    text-align: center;
+}
+.tipSend{
+    width:92%;
+    margin:10px auto 10px;
+    border-radius:4px;
+    border:1px solid #ccc;
+    overflow:hidden;
+}
+.tipSendContent{
+    width:100%;
+    height:125px;
+    background: #ccc;
+    border-top:1px solid #eee;
+}
+.tipSendContent textarea{
+    width:100%;
+    color:#666!important;
+    font-size:14px;
+    box-sizing:border-box;
+    padding:5px 10px;
+    resize:none;
+    outline:none;
+    height:100%;
+    border:none;
+    border-radius:0!important;
+}
+.tipSendFile{
+    width:92%;
+    margin:10px auto;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+}
+.tipSendFile>div{
+    width:76px;
+    height:76px;
+    margin-bottom:12px;
+    margin-right:10px;
+    position:relative;
+}
+.tipSendFile>div img.img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.tipSendFile>div.goFile{
+    border:1px dashed #ccc;
+}
+.cancel{
+    position:absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:20px;
+}
+.goUpload{
+    width:76px;
+    height:76px;
+    text-align: center;
+    line-height:76px;
+    font-size:30px;
+    color:#ccc;
+}
+.tipSend-til input{
+    display:block;
+    width:100%;
+    padding:10px 10px;
+    box-sizing:border-box;
+    border:none;
+    outline:none;
+    color:#666;
+}
+.videos{
+    width:100%;
+    margin:60px auto 10px;
+}
+.videos-box{
+    width:92%;
+    height:200px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+.iconPlay{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin:auto;
+    z-index:100;
+    width:50px;
+    height:50px;
+}
+.videos-box video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #000;
+    cursor:pointer;
+}
+.uploadBtn{
+    width:92%;
+    height:44px;
+    margin:10px auto;
+    border:1px solid #eee;
+    border-radius:6px;
+    text-align: center;
+    line-height:44px;
+    color:#52DDC3;
+}
+.ant-upload-list{
+    display:none!important;
+}
+.ant-upload{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.tipSend-show{
+    display:block;
+}
+.tipSend-hid{
+    display:none;
+}

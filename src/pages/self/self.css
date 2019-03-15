@@ -1,0 +1,63 @@
+.school-nav{
+    width:100%;
+    top:44px;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    border-bottom:1px solid #eee;
+    position:fixed;
+    left:0;
+    z-index:1000;
+    background: #fff;
+    color:#989898;
+    font-size:14px;
+}
+.school-nav>div{
+    width:33.3%;
+    text-align: center;
+    height:44px;
+    line-height:44px;
+    position:relative;
+}
+.school-nav>div+div::before{
+    position:absolute;
+    content:'';
+    width:1px;
+    height:30px;
+    background: #eee;
+    left:0;
+    top:20%;
+}
+.schoolList{
+    padding-top:90px!important;
+}
+.select-nav{
+    color:#5ee2c6;
+    position:relative;
+}
+.select-nav::after{
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 1px;
+    background: #5ee2c6;
+    left: 25%;
+    top: 100%;
+}
+.schoolList a{
+    text-decoration:none;
+}
+.load-more{
+    width:100%;
+    text-align: center;
+    color:#888;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.load-more-show{
+    display:block;
+}
+.load-more-hid{
+    display:none;
+}

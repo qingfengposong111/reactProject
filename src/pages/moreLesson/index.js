@@ -27,7 +27,7 @@ class MoreLesson extends Component {
             flag2: false,
             flag3: false,
             flag4: false,
-            lessonAreaId: '',
+            LessonAreaId: '',
             lessonClassifyId: '',
             lessonSortId: '',
             lessonAgeId: ''
@@ -187,28 +187,39 @@ class MoreLesson extends Component {
             <div>
 
                 <div className={this.state.flag1 ? 'classify-show' : 'classify-hid'}>
-                    <LessonClassify lessonVal={this.props.match.params.lessonVal} lessonMsg2={this.state.lessonAgeId}
-                                    lessonMsg3={this.state.lessonAreaId}
-                                    lessonMsg4={this.state.lessonSortId} lessonHandleClassify={this.getSon.bind(this)}
-                                    lessonHandleValList={this.getList.bind(this)}/>
+                    <LessonClassify
+                        lessonVal={this.props.match.params.lessonVal}
+                        lessonMsg2={this.state.lessonAgeId}
+                        lessonMsg3={this.state.lessonAreaId}
+                        lessonMsg4={this.state.lessonSortId}
+                        lessonHandleClassify={this.getSon.bind(this)}
+                        lessonHandleValList={this.getList.bind(this)}/>
                 </div>
                 <div className={this.state.flag2 ? 'classify-show' : 'classify-hid'}>
-                    <Age lessonVal={this.props.match.params.lessonVal} lessonMsg1={this.state.lessonClassifyId}
+                    <Age lessonVal={this.props.match.params.lessonVal}
+                         lessonMsg1={this.state.lessonClassifyId}
                          lessonMsg3={this.state.lessonAreaId}
-                         lessonMsg4={this.state.lessonSortId} lessonHandleAge={this.getAge.bind(this)}
+                         lessonMsg4={this.state.lessonSortId}
+                         lessonHandleAge={this.getAge.bind(this)}
                          lessonHandleValList={this.getList.bind(this)}/>
                 </div>
                 <div className={this.state.flag3 ? 'classify-show' : 'classify-hid'}>
-                    <LessonArea lessonVal={this.props.match.params.lessonVal} lessonMsg1={this.state.lessonClassifyId}
-                                lessonMsg2={this.state.lessonAgeId}
-                                lessonMsg4={this.state.lessonSortId} lessonHandleArea={this.getArea.bind(this)}
-                                lessonHandleValList={this.getList.bind(this)}/>
+                    <LessonArea
+                        lessonVal={this.props.match.params.lessonVal}
+                        lessonMsg1={this.state.lessonClassifyId}
+                        lessonMsg2={this.state.lessonAgeId}
+                        lessonMsg4={this.state.lessonSortId}
+                        lessonHandleArea={this.getArea.bind(this)}
+                        lessonHandleValList={this.getList.bind(this)}/>
                 </div>
                 <div className={this.state.flag4 ? 'classify-show' : 'classify-hid'}>
-                    <LessonBrain lessonVal={this.props.match.params.lessonVal} lessonMsg1={this.state.lessonClassifyId}
-                                 lessonMsg2={this.state.lessonAgeId}
-                                 lessonMsg3={this.state.lessonAreaId} lessonHandleBrain={this.getSort.bind(this)}
-                                 lessonHandleValList={this.getList.bind(this)}/>
+                    <LessonBrain
+                        lessonVal={this.props.match.params.lessonVal}
+                        lessonMsg1={this.state.lessonClassifyId}
+                        lessonMsg2={this.state.lessonAgeId}
+                        lessonMsg3={this.state.LessonAreaId}
+                        lessonHandleBrain={this.getSort.bind(this)}
+                        lessonHandleValList={this.getList.bind(this)}/>
                 </div>
                 <div className="header-search">
                     <div className="backs" onClick={this.back.bind(this)}>
@@ -218,7 +229,7 @@ class MoreLesson extends Component {
                         <img className="publicSearch" src={iconSearch} alt=""/>
                         <Search placeholder="搜索课程/培训等"> </Search>
                     </div>
-                    <div className="rt"></div>
+                    {/*<div className="rt"></div>*/}
                 </div>
 
                 <div className="lesson-nav">

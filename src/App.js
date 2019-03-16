@@ -52,14 +52,12 @@ import ActivityGoComment from './pages/activityGoComment'//评价活动
 import Personal from './pages/personal'//个人信息
 import AddBelong from './pages/addBelong'//添加所属学校/机构
 import BelongSearch from './pages/belongSearch'
-import Self from'./pages/self'
 const App = () => (
     <div>
         <Router>
             <div>
                 <Route exact path="/" component={Main}/>
                 <Route path="/School" component={School}/>
-                <Route path="/Self" component={Self}/>
                 <Route path="/Find" component={Find}/>
                 <Route path="/Mine" component={Mine}/>
                 <Route path="/Activity/:acv?" component={Activity}/>

@@ -137,9 +137,6 @@ class Main extends Component {
     loadMore () {
         this.props.history.push('/LoadMore')
     }
-    self(){
-        this.props.history.push('/Self')
-    }
     render() {
         return (
             <div className="box">
@@ -178,7 +175,6 @@ class Main extends Component {
                     </Link>
                 </div>
                 <Lessons />
-                <div onClick={this.self.bind(this)}>自己</div>
                 <div className="excell">
                     <div className="title">
                         <div className="excell-lf" onClick={this.loadMore.bind(this)}>
